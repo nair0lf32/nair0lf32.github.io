@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <script type="text/javascript">
+        window.talktype = window.talktype || function(f) {
+            if (talktype.loaded)
+                f();
+            else
+                (talktype.q = talktype.q || []).push(arguments);
+            };
+    </script>
+    <script src="https://www.metype.com/quintype-metype/assets/metype.js" %3e%3c="" script%3e%0a%0a%0a%0a%0a%0a%20%20%20%20%20%20%20%20%3cmeta%20charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Personnal github page of EDEMESSI 'nairolf32' Florian" />
+        <meta name="author" content="EDEMESSI Florian" />
+        <meta name="keywords" content="EDEMESSI,Florian,nairolf32,nair0lf32,github-page,personnal">
+        <title>EDEMESSI Florian (nair0lf32)</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet">
+        <meta name="generator" content="Silex v2.2.7">
+        <style class="silex-inline-styles" type="text/css">
+            .silex-id-1628821558485-0 {
+                min-width: 100%;
+            }
+        </style>
+        <script type="text/javascript" class="silex-json-styles">
+            [{"desktop":{"silex-id-1628821558485-0":{"min-width":"100%"}},"mobile":{}}]
+        </script>
+        <style type="text/css" class="silex-style"></style>
+        <script type="text/javascript" class="silex-script"></script>
+        <title></title>
+
+        <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css">
+        <script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/translate_static/js/element/main_fr.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/element/TE_20210503_00/e/js/element/element_main.js"></script>
+        <!-- Silex HEAD tag do not remove -->
+        <!-- End of Silex HEAD tag do not remove -->
+</head>
+
+<body id="page-top" class="container-element silex-id-1628821558485-0 silex-runtime" data-silex-type="container" data-silex-id="silex-id-1628821558485-0" style="position: relative; top: 0px;">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">nair0lf32</a>
+
+            <!-- GTranslate: https://gtranslate.io/ -->
+            <a href="#" onclick="doGTranslate('fr|ar');return false;" title="Arabic" class="gflag nturl" style="background-position:-100px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Arabic"></a>
+            <a href="#" onclick="doGTranslate('fr|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="English"></a>
+            <a href="#" onclick="doGTranslate('fr|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="French"></a>
+            <a href="#" onclick="doGTranslate('fr|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="German"></a>
+            <a href="#" onclick="doGTranslate('fr|it');return false;" title="Italian" class="gflag nturl" style="background-position:-600px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Italian"></a>
+            <a href="#" onclick="doGTranslate('fr|ja');return false;" title="Japanese" class="gflag nturl" style="background-position:-700px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Japanese"></a>
+            <a href="#" onclick="doGTranslate('fr|pt');return false;" title="Portuguese" class="gflag nturl" style="background-position:-300px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Portuguese"></a>
+            <a href="#" onclick="doGTranslate('fr|ru');return false;" title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Russian"></a>
+            <a href="#" onclick="doGTranslate('fr|es');return false;" title="Spanish" class="gflag nturl" style="background-position:-600px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Spanish"></a>
+
+            <style type="text/css">
+                <!-- a.gflag {
+                    vertical-align: middle;
+                    font-size: 16px;
+                    padding: 1px 0;
+                    background-repeat: no-repeat;
+                    background-image: url('//gtranslate.net/flags/16.png');
+                }
+                
+                a.gflag img {
+                    border: 0;
+                }
+                
+                a.gflag:hover {
+                    background-image: url('//gtranslate.net/flags/16a.png');
+                }
+                
+                #goog-gt-tt {
+                    display: none !important;
+                }
+                
+                .goog-te-banner-frame {
+                    display: none !important;
+                }
+                
+                .goog-te-menu-value:hover {
+                    text-decoration: none !important;
+                }
+                
+                body {
+                    top: 0 !important;
+                }
+                
+                #google_translate_element2 {
+                    display: none!important;
+                }
+                
+                -->
+            </style>
+
+            <div id="google_translate_element2">
+                <div class="skiptranslate goog-te-gadget" dir="ltr" style="">
+                    <div id=":0.targetLanguage"><select class="goog-te-combo" aria-label="Widget de traduction"><option value="">Sélectionner une langue</option><option value="af">Afrikaans</option><option value="sq">Albanais</option><option value="de">Allemand</option><option value="am">Amharique</option><option value="en">Anglais</option><option value="ar">Arabe</option><option value="hy">Arménien</option><option value="az">Azéri</option><option value="eu">Basque</option><option value="bn">Bengali</option><option value="be">Biélorusse</option><option value="my">Birman</option><option value="bs">Bosniaque</option><option value="bg">Bulgare</option><option value="ca">Catalan</option><option value="ceb">Cebuano</option><option value="ny">Chichewa</option><option value="zh-CN">Chinois (simplifié)</option><option value="zh-TW">Chinois (traditionnel)</option><option value="si">Cingalais</option><option value="ko">Coréen</option><option value="co">Corse</option><option value="ht">Créole haïtien</option><option value="hr">Croate</option><option value="da">Danois</option><option value="es">Espagnol</option><option value="eo">Espéranto</option><option value="et">Estonien</option><option value="fi">Finnois</option><option value="fy">Frison</option><option value="gd">Gaélique (Écosse)</option><option value="gl">Galicien</option><option value="cy">Gallois</option><option value="ka">Géorgien</option><option value="el">Grec</option><option value="gu">Gujarati</option><option value="ha">Haoussa</option><option value="haw">Hawaïen</option><option value="iw">Hébreu</option><option value="hi">Hindi</option><option value="hmn">Hmong</option><option value="hu">Hongrois</option><option value="ig">Igbo</option><option value="id">Indonésien</option><option value="ga">Irlandais</option><option value="is">Islandais</option><option value="it">Italien</option><option value="ja">Japonais</option><option value="jw">Javanais</option><option value="kn">Kannada</option><option value="kk">Kazakh</option><option value="km">Khmer</option><option value="rw">Kinyarwanda</option><option value="ky">Kirghiz</option><option value="ku">Kurde</option><option value="lo">Laotien</option><option value="la">Latin</option><option value="lv">Letton</option><option value="lt">Lituanien</option><option value="lb">Luxembourgeois</option><option value="mk">Macédonien</option><option value="ms">Malaisien</option><option value="ml">Malayalam</option><option value="mg">Malgache</option><option value="mt">Maltais</option><option value="mi">Maori</option><option value="mr">Marathi</option><option value="mn">Mongol</option><option value="nl">Néerlandais</option><option value="ne">Népalais</option><option value="no">Norvégien</option><option value="or">Odia (oriya)</option><option value="ug">Ouïgour</option><option value="uz">Ouzbek</option><option value="ps">Pachtô</option><option value="pa">Panjabi</option><option value="fa">Persan</option><option value="tl">Philippin</option><option value="pl">Polonais</option><option value="pt">Portugais</option><option value="ro">Roumain</option><option value="ru">Russe</option><option value="sm">Samoan</option><option value="sr">Serbe</option><option value="st">Sesotho</option><option value="sn">Shona</option><option value="sd">Sindhî</option><option value="sk">Slovaque</option><option value="sl">Slovène</option><option value="so">Somali</option><option value="su">Soundanais</option><option value="sv">Suédois</option><option value="sw">Swahili</option><option value="tg">Tadjik</option><option value="ta">Tamoul</option><option value="tt">Tatar</option><option value="cs">Tchèque</option><option value="te">Telugu</option><option value="th">Thaï</option><option value="tr">Turc</option><option value="tk">Turkmène</option><option value="uk">Ukrainien</option><option value="ur">Urdu</option><option value="vi">Vietnamien</option><option value="xh">Xhosa</option><option value="yi">Yiddish</option><option value="yo">Yorouba</option><option value="zu">Zoulou</option></select></div>Fourni
+                    par&nbsp;<span style="white-space:nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><img src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png" width="37px" height="14px" style="padding-right: 3px" alt="Google Traduction">Traduction</a></span></div>
+            </div>
+            <script type="text/javascript">
+                function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'fr',autoDisplay: false}, 'google_translate_element2');}
+            </script>
+            <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+        </div>
+    </nav>
+    <div class="silex-pages">
+        <div data-silex-type="image" data-silex-id="silex-id-hamburger-menu" class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
+                class="silex-element-content"></div>
+    </div>
+
+
+    <div id="goog-gt-tt" class="skiptranslate" dir="ltr">
+        <div style="padding: 8px;">
+            <div>
+                <div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google Traduction"></div>
+            </div>
+        </div>
+        <div class="top" style="padding: 8px; float: left; width: 100%;">
+            <h1 class="title gray">Texte d'origine</h1>
+        </div>
+        <div class="middle" style="padding: 8px;">
+            <div class="original-text"></div>
+        </div>
+        <div class="bottom" style="padding: 8px;">
+            <div class="activity-links"><span class="activity-link">Proposer une meilleure traduction</span><span class="activity-link"></span></div>
+            <div class="started-activity-container">
+                <hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;">
+                <div class="activity-root"></div>
+            </div>
+        </div>
+        <div class="status-message" style="display: none;"></div>
+    </div>
+    <div class="goog-te-spinner-pos">
+        <div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div>
+    </div>
+</body>
+
+</html>
