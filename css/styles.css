@@ -737,11 +737,6 @@ html {
 }
 
 
-.lolpaper
-{
-background-image:url("/assets/wpp.jpg")
-}
-
 
 .contacts
 {
@@ -750,3 +745,15 @@ background-image:url("/assets/wpp.jpg")
 }
 
 
+.flags
+{
+padding-bottom: 0.1rem;
+}
+
+@media (min-width: 992px) {
+  .flags
+  {
+  margin-top: 3rem;
+  font-size: 32px;
+  }
+}
