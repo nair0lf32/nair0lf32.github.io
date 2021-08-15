@@ -121,7 +121,7 @@ small {
 }
 
 a {
-  color: #4615ce;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -837,16 +837,4 @@ html {
 margin-bottom: 5%;
 }
 
-
-
-.carousel-control-next, .carousel-control-prev
-{
-  height: 15%;
-  padding-top: 30%;
-}
-
-
-.carousel-indicators .active {
-  background: black;
-}
 
