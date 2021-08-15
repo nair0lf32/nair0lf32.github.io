@@ -1,0 +1,19 @@
+.loader {
+    align-items: center;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: opacity 0.3s linear;
+    width: 100%;
+    z-index: 9999;
+}
+
+html,
+body {
+    overflow: hidden;
+}
