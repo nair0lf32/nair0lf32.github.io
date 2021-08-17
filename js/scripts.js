@@ -57,14 +57,33 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 //loading hide function
-function preloaderFadeOutInit(){
+function preloaderFadeOutInit() {
     $('.loader').fadeOut('slow');
-    $('body').attr('id','');
-    $(' html, body').css({overflow: 'auto'});
-    }
-    // Window load function
-    jQuery(window).on('load', function () {
-    (function ($) {
-    preloaderFadeOutInit();
-    })(jQuery);
+    $('body').attr('id', '');
+    $(' html, body').css({
+        overflow: 'auto'
     });
+}
+// Window load function
+jQuery(window).on('load', function () {
+    (function ($) {
+        preloaderFadeOutInit();
+    })(jQuery);
+});
+
+
+//Animate on scroll
+// Remove the transition class
+var images = document.getElementsByClassName('photo');
+var offset = window.screen.height - 75; // offset to trigger the colorize effect
+window.addEventListener('scroll', function () {
+    if (window.scrollY >= offset || window.scrollY <= -offset) {
+        [].forEach.call(images, function (image) {
+            image.classList.add('photo-colorize');
+        });
+    } else {
+        [].forEach.call(images, function (image) {
+            image.classList.remove('photo-colorize');
+        });
+    }
+});
