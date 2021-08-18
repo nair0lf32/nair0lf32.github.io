@@ -88,5 +88,3 @@ window.addEventListener('scroll', function () {
     }
 });
 
-
-//Animate title on Hover
