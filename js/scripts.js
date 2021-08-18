@@ -72,10 +72,10 @@ jQuery(window).on('load', function () {
 });
 
 
-//Animate on scroll
+//Animate photo on scroll
 // Remove the transition class
 var images = document.getElementsByClassName('photo');
-var offset = window.screen.height - 75; // offset to trigger the colorize effect
+var offset = window.screen.height - 65; // offset to trigger the colorize effect
 window.addEventListener('scroll', function () {
     if (window.scrollY >= offset || window.scrollY <= -offset) {
         [].forEach.call(images, function (image) {
@@ -87,3 +87,6 @@ window.addEventListener('scroll', function () {
         });
     }
 });
+
+
+//Animate title on Hover
