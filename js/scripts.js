@@ -89,16 +89,3 @@ window.addEventListener('scroll', function () {
 });
 
 
-Sentry.init({
-    dsn: "https://7dcb7d69c262496fa5b50a3967819135@o965379.ingest.sentry.io/5916179",
-    // this assumes your build process sets "npm_package_version" in the env
-    release: "my-project-name@" + process.env.npm_package_version,
-    integrations: [new Sentry.Integrations.BrowserTracing()],
-  
-    // We recommend adjusting this value in production, or using tracesSampler
-    // for finer control
-    tracesSampleRate: 1.0,
-  });
-
-
-myUndefinedFunction();
