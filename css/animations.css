@@ -42,7 +42,8 @@ body {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
-.photo-container{
+
+.photo-container {
     overflow: hidden;
 }
 
@@ -53,7 +54,8 @@ body {
     transform: scale(1.1);
 }
 
-p:hover,h1:hover,h2:hover
-{
-    transform: scale(1.05);  
+p:hover,
+h1:hover,
+h2:hover {
+    transform: scale(1.05);
 }

@@ -5,10 +5,6 @@
  */
 //
 
-//
-
-// Scripts
-// 
 window.addEventListener('DOMContentLoaded', event => {
     // Navbar shrink function
     var navbarShrink = function () {
@@ -21,22 +17,18 @@ window.addEventListener('DOMContentLoaded', event => {
         } else {
             navbarCollapsible.classList.add('navbar-shrink')
         }
-
     };
-
     // Shrink the navbar 
     navbarShrink();
-
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
-
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
             offset: 72,
-        });
+        })
     };
 
     // Collapse responsive navbar when toggler is visible
@@ -44,7 +36,6 @@ window.addEventListener('DOMContentLoaded', event => {
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
     );
-
     responsiveNavItems.map(function (responsiveNavItem) {
         responsiveNavItem.addEventListener('click', () => {
             if (window.getComputedStyle(navbarToggler).display !== 'none') {
@@ -52,9 +43,7 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
 });
-
 
 //loading hide function
 function preloaderFadeOutInit() {
@@ -71,9 +60,7 @@ jQuery(window).on('load', function () {
     })(jQuery);
 });
 
-
 //Animate photo on scroll
-// Remove the transition class
 var images = document.getElementsByClassName('photo');
 var offset = window.screen.height - 65; // offset to trigger the colorize effect
 window.addEventListener('scroll', function () {
@@ -87,5 +74,3 @@ window.addEventListener('scroll', function () {
         });
     }
 });
-
-
