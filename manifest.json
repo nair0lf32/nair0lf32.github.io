@@ -1,0 +1,16 @@
+{
+    "name": "nair0lf32 Github Page",
+    "short_name": "nair0lf32",
+    "start_url": "index.html",
+    "scope": "./",
+    "icons": [
+        {
+            "src": "/assets/img/favicon.ico",
+            "sizes": "48x48",
+            "type": "image/ico"
+        }
+    ],
+    "theme_color": "#0000ff",
+    "background_color": "#000",
+    "display": "standalone"
+}
