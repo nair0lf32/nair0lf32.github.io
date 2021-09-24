@@ -33,14 +33,19 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0));
 }
 
 *,
-*::before,
-*::after {
+::after,
+::before {
   box-sizing: border-box;
 }
 
@@ -59,15 +64,17 @@ body {
   color: #212529;
   background-color: #000;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
-h4,
+h1,
 h2,
-h1 {
+h4 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
 }
@@ -152,15 +159,15 @@ button {
   text-transform: none;
 }
 
-button,
-[type=button] {
+[type="button"],
+button {
   -webkit-appearance: button;
 }
 
-button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
   cursor: pointer;
 }
 
@@ -169,12 +176,12 @@ button:not(:disabled),
   border-style: none;
 }
 
-::-webkit-datetime-edit-fields-wrapper,
-::-webkit-datetime-edit-text,
-::-webkit-datetime-edit-minute,
-::-webkit-datetime-edit-hour-field,
 ::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-fields-wrapper,
+::-webkit-datetime-edit-hour-field,
+::-webkit-datetime-edit-minute,
 ::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-text,
 ::-webkit-datetime-edit-year-field {
   padding: 0;
 }
@@ -183,14 +190,6 @@ button:not(:disabled),
   height: auto;
 }
 
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -275,16 +274,7 @@ button:not(:disabled),
   margin-top: var(--bs-gutter-y);
 }
 
-@media (min-width: 768px) {
-
-  .col-md-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-}
-
 @media (min-width: 992px) {
-
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.3333333333%;
@@ -297,13 +287,11 @@ button:not(:disabled),
 }
 
 @media (min-width: 1200px) {
-
   .col-xl-7 {
     flex: 0 0 auto;
     width: 58.3333333333%;
   }
 }
-
 
 .btn {
   display: inline-block;
@@ -323,7 +311,8 @@ button:not(:disabled),
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   border-radius: 0.5rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -385,7 +374,8 @@ button:not(:disabled),
   padding: 0.5rem 1rem;
   color: #4615ce;
   text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -394,8 +384,8 @@ button:not(:disabled),
   }
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.nav-link:hover {
   color: #033d32;
 }
 
@@ -495,37 +485,12 @@ button:not(:disabled),
   }
 }
 
-/* rtl:begin:ignore */
-
-/* rtl:end:ignore */
-
-/* rtl:options: {
-  "autoRename": true,
-  "stringMap":[ {
-    "name"    : "prev-next",
-    "search"  : "prev",
-    "replace" : "next"
-  } ]
-} */
-
 .fixed-top {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
-}
-
-.visually-hidden-focusable:not(:focus):not(:focus-within) {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
 }
 
 .d-flex {
@@ -597,10 +562,6 @@ button:not(:disabled),
   text-transform: uppercase !important;
 }
 
-/* rtl:begin:remove */
-
-/* rtl:end:remove */
-
 .text-secondary {
   color: #fff !important;
 }
@@ -622,7 +583,6 @@ button:not(:disabled),
 }
 
 @media (min-width: 992px) {
-
   .mx-lg-1 {
     margin-right: 0.25rem !important;
     margin-left: 0.25rem !important;
@@ -710,7 +670,9 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
 
@@ -802,13 +764,10 @@ html {
   background-color: #1a252f;
 }
 
-
-
 .contacts {
   color: #fff;
   font-size: 1.5rem;
 }
-
 
 .flags {
   padding-bottom: 0.1rem;
@@ -822,7 +781,7 @@ html {
 }
 
 .lol-about {
-  background-image: url('/assets/img/lolpics/teemo.jpg');
+  background-image: url(https://nair0lf32.github.io/assets/img/lolpics/teemo.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -838,9 +797,7 @@ html {
   width: 95%;
 }
 
-
-.loadtext
-{
-font-size: 400%;
-top: 10%;
+.loadtext {
+  font-size: 400%;
+  top: 10%;
 }
