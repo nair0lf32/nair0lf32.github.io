@@ -1,8 +1,10 @@
 {
     "name": "nair0lf32 Github Page",
     "short_name": "nair0lf32",
-    "start_url": "index.html",
+    "description": "personal page of Florian EDEMESSI",
+    "start_url": "index.html?launcher=true",
     "scope": "./",
+    "lang": "fr",
     "icons": [
         {
             "src": "/assets/img/favicon.ico",
@@ -12,5 +14,6 @@
     ],
     "theme_color": "#0000ff",
     "background_color": "#000",
+    "orientation":"portrait",
     "display": "standalone"
 }

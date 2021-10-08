@@ -1,13 +1,12 @@
-/*!
- * Start Bootstrap - Freelancer v7.0.2 (https://startbootstrap.com/theme/freelancer)
- * Copyright 2013-2021 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
- */
-//
 
-if ("serviceWorker" in navigator) {
-    // register service worker
-    navigator.serviceWorker.register("service-worker.js");
+
+// register service worker
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/service-worker.js')
+            .then(function () { console.log("Service Worker Registered!"); });
+    }
+    );
 }
 
 
