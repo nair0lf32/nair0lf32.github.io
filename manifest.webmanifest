@@ -2,8 +2,8 @@
     "theme_color": "#0000ff",
     "background_color": "#000",
     "display": "standalone",
-    "scope": "./",
-    "start_url": ".",
+    "scope": "/",
+    "start_url": "https://nair0lf32.github.io",
     "name": "nair0lf32",
     "short_name": "nair0lf32",
     "icons": [
