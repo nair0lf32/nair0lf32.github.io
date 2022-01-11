@@ -1,6 +1,7 @@
 # nair0lf32.github.io
 
-My personnal page. (I just wanted to try github pages).
-Used a free bootstrap template for css and not really much of javascript.
+My personnal website. (wanted to try github pages).
+Made with a free bootstrap template for css and a bit of vanilla javascript.
 
-I am currently planning on remaking this with a better approach as my portfolio website.
+Its my cool personal space and I am gonna add more and more pages and links
+of my other projects to it.
