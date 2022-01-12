@@ -8,3 +8,10 @@ Made with a free bootstrap template for css and a bit of jquerry and vanilla jav
 
 Its my cool personal space and I am gonna add more and more pages and links
 of my other projects to it.
+
+<!--
+TODO: 
+- add 'space-vibes' music page
+- add 'bio' page
+- add 'vip/contacts' page
+-->
