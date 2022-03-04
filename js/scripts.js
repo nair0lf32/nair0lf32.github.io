@@ -1,5 +1,3 @@
-
-
 // register service worker
 // Only trigger if service workers are supported in browser.
 if ('serviceWorker' in navigator) {
