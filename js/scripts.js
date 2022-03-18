@@ -1,5 +1,4 @@
-// register service worker
-// Only trigger if service workers are supported in browser.
+// register service worker  if service workers are supported in browser.
 if ('serviceWorker' in navigator) {
     // Wait until window is loaded before registering.
     window.addEventListener('load', () => {
@@ -25,7 +24,7 @@ window.addEventListener('DOMContentLoaded', event => {
             navbarCollapsible.classList.add('navbar-shrink')
         }
     };
-    // Shrink the navbar 
+    // Shrink the navbar by default
     navbarShrink();
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
@@ -60,6 +59,7 @@ function preloaderFadeOutInit() {
         overflow: 'auto'
     });
 }
+
 // Window load function
 jQuery(window).on('load', function () {
     (function ($) {
@@ -81,3 +81,6 @@ window.addEventListener('scroll', function () {
         });
     }
 });
+
+
+
