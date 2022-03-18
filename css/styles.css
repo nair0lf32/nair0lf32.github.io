@@ -1,16 +1,7 @@
 @charset "UTF-8";
-
 /*!
 * Start Bootstrap - Freelancer v7.0.2 (https://startbootstrap.com/theme/freelancer)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
 */
-/*!
- * Bootstrap v5.0.1 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -42,19 +33,16 @@
       rgba(255, 255, 255, 0.15),
       rgba(255, 255, 255, 0));
 }
-
 *,
 ::after,
 ::before {
   box-sizing: border-box;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
   }
 }
-
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
@@ -98,7 +86,6 @@ h2 {
     font-size: 2rem;
   }
 }
-
 h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
@@ -113,69 +100,55 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
 ul {
   padding-left: 2rem;
 }
-
 ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
 small {
   font-size: 0.875em;
 }
-
 a {
   color: #ff9a28;
   text-decoration: underline;
 }
-
 a:hover {
   color: indigo;
 }
-
 img {
   vertical-align: middle;
 }
-
 button {
   border-radius: 0;
 }
-
 button:focus:not(:focus-visible) {
   outline: 0;
 }
-
 button {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
-
 button {
   text-transform: none;
 }
-
 [type="button"],
 button {
   -webkit-appearance: button;
 }
-
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled),
 button:not(:disabled) {
   cursor: pointer;
 }
-
 ::-moz-focus-inner {
   padding: 0;
   border-style: none;
 }
-
 ::-webkit-datetime-edit-day-field,
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-hour-field,
@@ -206,6 +179,7 @@ button:not(:disabled) {
   font: inherit;
   -webkit-appearance: button;
 }
+
 
 .lead {
   font-size: 1.25rem;
@@ -779,7 +753,6 @@ html {
     font-size: 32px;
   }
 }
-
 .lol-about {
   background-image: url(https://nair0lf32.github.io/assets/img/lolpics/teemo.jpg);
   background-repeat: no-repeat;
@@ -790,14 +763,50 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .youvid {
   margin: auto;
   margin-bottom: 10%;
   width: 95%;
 }
-
 .loadtext {
   font-size: 400%;
   top: 10%;
 }
+
+/*Gtranslate.io css rules start below*/
+        a.gflag {
+            vertical-align: middle;
+            font-size: 24px;
+            padding: 1px 0;
+            background-repeat: no-repeat;
+            background-image: url(//gtranslate.net/flags/24.png);
+        }
+
+        a.gflag img {
+            border: 0;
+        }
+
+        a.gflag:hover {
+            background-image: url(//gtranslate.net/flags/24a.png);
+        }
+
+        #goog-gt-tt {
+            display: none !important;
+        }
+
+        .goog-te-banner-frame {
+            display: none !important;
+        }
+
+        .goog-te-menu-value:hover {
+            text-decoration: none !important;
+        }
+
+        body {
+            top: 0 !important;
+        }
+
+        #google_translate_element2 {
+            display: none !important;
+        }
+/*Gtranslate.io css rules ended*/
