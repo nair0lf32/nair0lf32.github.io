@@ -3,27 +3,6 @@
 * Start Bootstrap - Freelancer v7.0.2 (https://startbootstrap.com/theme/freelancer)
 */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #4615ce;
-  --bs-cyan: #0dcaf0;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-primary: #4615ce;
-  --bs-secondary: #2c3e50;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
   --bs-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -345,6 +324,7 @@ button:not(:disabled) {
 
 .nav-link {
   display: block;
+  font-size: 1.5rem;
   padding: 0.5rem 1rem;
   color: #4615ce;
   text-decoration: none;
@@ -743,16 +723,6 @@ html {
   font-size: 1.5rem;
 }
 
-.flags {
-  padding-bottom: 0.1rem;
-}
-
-@media (min-width: 992px) {
-  .flags {
-    margin-top: 3rem;
-    font-size: 32px;
-  }
-}
 .lol-about {
   background-image: url(https://nair0lf32.github.io/assets/img/lolpics/teemo.jpg);
   background-repeat: no-repeat;
@@ -810,3 +780,14 @@ html {
             display: none !important;
         }
 /*Gtranslate.io css rules ended*/
+
+.flags {
+  padding-bottom: 0.1rem;
+}
+
+@media (min-width: 992px) {
+  .flags {
+    margin-top: 3rem;
+    font-size: 32px;
+  }
+}
