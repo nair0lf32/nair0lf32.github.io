@@ -1,12 +1,13 @@
-# Personnal website
+# [Personal website](https://nair0lf32.github.io)
 
-## [nair0lf32.github.io](https://nair0lf32.github.io)
 
-My personnal website. (wanted to try github pages)
+My personal website (very basic and simple one)
 
-Made with a free bootstrap template for css and a bit of jquery plus vanilla javascript (I wanted it simple, good-looking and quick to make).
+Made with a free bootstrap template for css and a bit of jquery plus vanilla javascript 
 
-Its my cool personal space and I am gonna add more and more pages and links to it.
+(I wanted it simple, good-looking and quick to make).
+
+Its a basic cool personal space and I am gonna add more pages to it later.
 
 **Midly-important Note:** 
 
