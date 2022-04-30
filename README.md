@@ -15,11 +15,7 @@ But I don't think I need it anymore (it is just a simple page and I don't need t
 
 I want to keep this website very simple and I am already working on improving its performance (mostly removing render-blocking junks)
 
-I already developped better-working PWAs but this one can go. **Therefore It is highly advised to remove any previous installation (if any) of this website and clear your browser cache**, to get the updated online version.
-
-Also I plan to add more pages but I need to fix some performance issues first
-
-(I think I overcomplicated this "simple" website lol)
+**Therefore It is highly advised to remove any previous installation (if any) of this website and clear your browser cache**, to get the updated online version.
 
 <!--
 TODO:

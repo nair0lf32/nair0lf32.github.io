@@ -1,4 +1,3 @@
-
 window.addEventListener('DOMContentLoaded', event => {
     // Navbar shrink function
     var navbarShrink = function () {
@@ -57,7 +56,7 @@ jQuery(window).on('load', function () {
 
 //Animate photo on scroll
 var images = document.getElementsByClassName('photo');
-var offset = window.screen.height - 65; // offset to trigger the colorize effect
+var offset = window.screen.height - 70.4; // offset to trigger the colorize effect
 window.addEventListener('scroll', function () {
     if (window.scrollY >= offset || window.scrollY <= -offset) {
         [].forEach.call(images, function (image) {
@@ -69,6 +68,4 @@ window.addEventListener('scroll', function () {
         });
     }
 });
-
-
 

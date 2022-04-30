@@ -13,12 +13,10 @@
     width: 100%;
     z-index: 9999;
 }
-
 html,
 body {
     overflow: hidden;
 }
-
 /*W3Bits images basic hover zoom*/
 /* Show the overflowing of child elements */
 /* [2] Transition property for smooth transformation of images */
@@ -26,12 +24,10 @@ body {
     overflow: visible;
     transition: transform 0.5s ease;
 }
-
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover {
     transform: scale(1.2);
 }
-
 /* W3Bits images colorize hover zoom*/
 /* Colorize-photo */
 .photo {
@@ -39,18 +35,15 @@ body {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
-
 .photo-container {
     overflow: hidden;
 }
-
 /* The Transformation */
 .photo-colorize {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
     transform: scale(1.1);
 }
-
 p:hover,
 h1:hover,
 h2:hover {
