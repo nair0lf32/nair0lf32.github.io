@@ -743,7 +743,23 @@ html {
   top: 10%;
 }
 
+.fav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
 
+.fav-img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.fav-img-wide {
+  width: 8rem;
+  height: 8rem;
+}
 
 /*Gtranslate.io css rules start below*/
         a.gflag {
