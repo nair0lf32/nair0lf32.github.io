@@ -745,20 +745,34 @@ html {
 
 .fav-container {
   display: flex;
+  space-between: auto;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 .fav-img {
-  width: 5rem;
-  height: 5rem;
+  margin-right: 0.2rem;
+  width: 20%;
+  height: 20%;
 }
 
 .fav-img-wide {
-  width: 8rem;
-  height: 8rem;
+  width: 50%;
+  height: 50%;
+}
+
+@media (min-width: 992px) {
+  .fav-img {
+    width: 10%;
+    height: 10%;
+  }
+
+  .fav-img-wide {
+    width: 25%;
+    height: 25%;
+  }
 }
 
 /*Gtranslate.io css rules start below*/
