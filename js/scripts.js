@@ -68,4 +68,3 @@ window.addEventListener('scroll', function () {
         });
     }
 });
-
