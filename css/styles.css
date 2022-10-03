@@ -630,6 +630,10 @@ html {
   color: #fff;
 }
 
+#mainNav .navbar-brand:hover {
+  color: #4615ce;
+}
+
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
