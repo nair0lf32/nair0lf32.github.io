@@ -15,6 +15,5 @@ I want to keep this website very simple and I am already working on improving it
 <!--
 TODO:
 - add 'space-vibes' music page
-- add 'bio' page
 - add 'vip/contacts' page
 -->
