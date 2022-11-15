@@ -157,13 +157,17 @@ button:not(:disabled) {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.photo {
+margin-left: 5%;
 }
 
 .container {
