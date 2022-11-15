@@ -2,36 +2,12 @@
 <html lang="fr">
 
 <head>
-    <!-- OpenReplay Tracking Code for nair0lf32.github.io -->
-    <script>
-        var initOpts = {
-            projectKey: "6442744483684795",
-            defaultInputMode: 0,
-            obscureTextNumbers: false,
-            obscureTextEmails: true,
-        };
-        var startOpts = { userID: "" };
-        (function (A, s, a, y, e, r) {
-            r = window.OpenReplay = [e, r, y, [s - 1, e]];
-            s = document.createElement('script'); s.src = A; s.async = !a;
-            document.getElementsByTagName('head')[0].appendChild(s);
-            r.start = function (v) { r.push([0]) };
-            r.stop = function (v) { r.push([1]) };
-            r.setUserID = function (id) { r.push([2, id]) };
-            r.setUserAnonymousID = function (id) { r.push([3, id]) };
-            r.setMetadata = function (k, v) { r.push([4, k, v]) };
-            r.event = function (k, p, i) { r.push([5, k, p, i]) };
-            r.issue = function (k, p) { r.push([6, k, p]) };
-            r.isActive = function () { return false };
-            r.getSessionToken = function () { };
-        })("//static.openreplay.com/latest/openreplay.js", 1, 0, initOpts, startOpts);
-    </script>
     <!--Meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Personal github page of EDEMESSI 'nairolf32' Florian" />
     <meta name="author" content="EDEMESSI Florian" />
-    <meta name="keywords" content="EDEMESSI,Florian,nairolf32,nair0lf32,github-page,personnal">
+    <meta name="keywords" content="EDEMESSI, Florian, nairolf32, nair0lf32, edemessi florian">
     <title>EDEMESSI Florian nair0lf32</title>
     <!-- Open Graph -->
     <meta property="og:title" content="EDEMESSI Florian nair0lf32" />
@@ -48,7 +24,7 @@
     <meta name="twitter:description" property="og:description" itemprop="description"
         content="Personal github page of EDEMESSI 'nairolf32' Florian">
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
     <!-- JQuery My boy :) -->
     <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -104,26 +80,24 @@
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">A
                             propos</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#contact">Contact</a></li>
+                            href="#portfolio">Portfolio</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#comment">Commentaire</a></li>
+                            href="/pages/favorites.html">Favs/Links</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="/lol-fanzone.html">Lol fanzone</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="/favorites.html">
-                            Favs</a></li>
+                            href="/pages/lol-fanzone.html">
+                            LOL fanzone</a></li>
+
                 </ul>
             </div>
         </div>
     </nav>
-
 
     <!-- Masthead-->
     <header class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image-->
             <div class=" img-hover-zoom avatar">
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg"
+                <img class="masthead-avatar mb-5" src="/assets/img/avataaars.svg"
                     alt="EDEMESSI_FLorian_nairolf32_avatar" />
             </div>
             <!-- Masthead Heading-->
@@ -135,8 +109,7 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Medic - Codeur - Graphiste amateur - Gamer - Flemmard
-                professionel</p>
+            <p class="masthead-subheading font-weight-light mb-0">Medic - Codeur - Gamer - Flemmard professionel</p>
         </div>
     </header>
     <!-- Portfolio Section-->
@@ -149,14 +122,13 @@
             <div class="divider-custom-icon"><i class="las la-suitcase la-2x"></i></div>
             <div class="divider-custom-line"></div>
         </div>
-        <p class="lead text-center text-white">Cliquez sur l'image ci dessous pour voir mon portfolio</p>
-        <div class="container">
-            <!-- Portfolio Grid Items-->
+
+        <div class="container" id="portfolio">
+            <h3 class="text-center text-white">Cliquez sur l'image ci dessous pour accéder à mon portfolio</h3>
             <div class="row justify-content-center">
-                <!-- Portfolio Item -->
                 <div class="photo-container">
                     <a href="https://nair0lf32.github.io/portfolio" role="button">
-                        <img class="img-fluid photo" src="assets/img/portfolio/self.png"
+                        <img class="img-fluid photo" src="/assets/img/portfolio/self.png"
                             alt="EDEMESSI_FLorian_nairolf32" />
                     </a>
                 </div>
@@ -177,36 +149,41 @@
             <!-- About Section Content-->
             <div class="row">
                 <div class="col-lg-4 ms-auto">
-                    <p class="lead"> Salut, Je suis EDEMESSI florian, étudiant en medecine à la faculté des sciences
-                        de la santé (FSS) de cotonou. passionné de développement informatique, j'ai touché à pas mal
-                        de choses dans le domaine. Développement web (évidemment...), graphisme, programmation desktop,
-                        android, modélisation/animation 3D, motion graphics 2D, montage vidéo, vfx, beatmaking,
-                        game-design
-                        (j'ai du mal à me spécialiser en fait).
-                        Mais là où je suis pas trop mauvais et où je m'amuse le plus, c'est le coding et l'infosec.
-                        Je suis en permanence en train d'apprendre un truc nouveau...
-                        Là par exemple je me lance dans la cybersécurité (hehehe).
-                        Quand je ne foutille pas à l'hopital (vive l'externat),
-                        Il m'arrive de Jouer sur mon Pc. c'est probablement mon principal hobby, et actuellement je
-                        gaspille de nombreuses heures sur league of legends et quelques jeux solo que mon ordinateur
-                        m'autorise à faire fonctionner. J'aime bien les anime aussi...les bons.
+                    <p class="lead"> Salut, Je suis EDEMESSI florian (nairolf32). étudiant en medecine à la faculté des
+                        sciences de la santé (FSS) de cotonou. Passionné de développement informatique, j'ai touché à
+                        pas mal de choses dans le domaine. Développement web (évidemment...), graphisme, programmation
+                        desktop, android, modélisation/animation 3D, motion graphics 2D, montage vidéo, vfx, beatmaking,
+                        game-design (mdr, j'ai du mal à me spécialiser en fait).
+                        Mais là où je suis pas trop nul et où je m'amuse le plus, c'est le coding. Je suis toujours en
+                        train d'apprendre un truc nouveau...Là par exemple je me lance à fond dans la cybersécurité.
+                        Quand je ne foutille pas à l'hopital, Il m'arrive de Jouer sur mon Pc.
+                        c'est probablement mon principal hobby. Je gaspille de nombreuses heures sur league of legends
+                        et quelques jeux solo que mon ordinateur m'autorise à faire tourner. J'aime bien les anime
+                        aussi... Les bons.
+
+                        Bienvenue sur mon site personnel. Il s'agit d'un vieux projet personnel hébergé sur mon Github
+                        qui me sert également de couverture pour mon portfolio. C'est avant tout un petit espace privé
+                        que j'enrichis souvent avec des pages plus ou moins personelles.
+
+
+
                     </p>
                 </div>
                 <div class="col-lg-4 me-auto">
-                    <p class="lead"> Ceci est mon site web personnel (hébergé sur Github). Un petit projet personnel
-                        qui me sert de couverture et que j'enrichirai avec des pages personelles.
-                        Il se peut que j'ajoute des trucs ou que je modifie d'autres. Il y a justement en bas un espace
-                        de commentaires. Vous pouvez y laisser un message sympa, une blague, une image drole, ou une
-                        critique CONSTRUCTIVE et proposer des trucs à ajouter ou retirer...
-                        Vous pouvez le faire anonymement ou vous conneter (Sign in) par les moyens proposés.
-                        Le Menu (voir la barre de navigation en haut)
-                        contient toutes les pages du site, donc vous pouvez l'explorer pour voir le contenu que
-                        j'ajoute (quand j'ai pas trop la flemme).
-                        par exemple il y a une page fanzone league of legends (pourquoi pas) où je parle brièvement du
-                        jeu. Vous pouvez y accéder via le Menu ou en cliquant <a href="/lol-fanzone.html"
-                            role="button">ici</a>.
-                        Si vous voulez voir mes projets pros, je bosse actuellement sur mon
-                        portfolio que vous pouvez voir en cliquant sur l'image au dessus.
+                    <p class="lead">Pour ceux que ça intéresse, le site est ultra basique et
+                        comme je suis nul en design et un peu flemmard je suis parti d'un template bootstrap, pour le
+                        CSS. Je l'ai ensuite beaucoup modifié, puis j'ai ajouté du javascript (vanilla + jquery) et fait
+                        une intégration externe pour les commentaires en bas. Il se peut très souvent que j'ajoute des
+                        trucs ou que je modifie d'autres (quand j'ai pas trop la flemme). Il y a justemment en bas
+                        l'espace des commentaires où vous pouvez donner votre avis sur les chose à modifier, laisser un
+                        message sympa, une blague, une image drole...Vous pouvez le faire anonymement ou vous conneter
+                        (Sign in) par les moyens proposés. Le Menu (barre de navigation en haut)
+                        contient les principales pages du site, donc n'hésitez pas à l'explorer. s'Il y a des pages du
+                        sites non accessibles via la page d'accueil, pour éviter de surcharger celle-ci, Je mettrai un
+                        lien ici meme pour y accéder. Maintenant, Si vous voulez voir mes projets pros, j'enrichis
+                        toujours mon portfolio avec
+                        quelques projets plus sérieux, que vous pouvez voir en cliquant sur l'image en
+                        haut. Bonne visite.
 
                         <br><br><br>
                         <span class="signature" style="font-family: 'Homemade Apple', cursive; ; margin-left: 30%;">
