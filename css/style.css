@@ -1,11 +1,11 @@
 body {
     margin-left: 5%;
-    background-color: #888888;
+    background-color: #b3b0b0f6;
 }
 
 
 .dark {
-    background-color: black;
+    background-color: #131212;
     color: white;
 }
 
@@ -21,7 +21,7 @@ text-align: justify;
 max-width: 840px;
 margin-right: 2%;
 margin-top: 5%;
-margin-bottom: 5%;
+margin-bottom: 3%;
 }
 
 .logo{
