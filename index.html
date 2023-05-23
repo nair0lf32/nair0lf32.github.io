@@ -28,31 +28,31 @@
 
     <!-- Core style and script-->
     <link rel="stylesheet" href="css/style.css">
-    <script type=”text/javascript” src="/js/script.js"></script>
+
 
 </head>
 
 
-<body>
+<body id="light">
     <header>
         <h1> Website index</h1>
         <nav>
-            <ul>
-                <li>Dark</li>
+            <ul class="menu">
+                <li><a href="#about">About</a></li>
+                <li>-</li>
+                <li><a href="#index">Index</a></li>
+                <li>-</li>
+                <li><a href="#" id="switch">Dark Mode</a></li>
             </ul>
         </nav>
     </header>
 
     <div>
-        <img class="logo" src="/assets/img/portfolio/self.png" alt="edemessi florian nairolf32 nair0lf32"
-            style="border-radius: 50%;" />
-        <p class="about"> Hi! I am EDEMESSI Florian (nair0lf32). Welcome to my Personal website!
+        <img class="logo" src="/assets/img/portfolio/self.png" alt="edemessi florian nairolf32 nair0lf32" />
+        <p class="about" id="about"> Hi! I am EDEMESSI Florian (nair0lf32). Welcome to my Personal website!
             <br> Actually, as a "web developper" wannabe, I am creating multiple websites (mostly personnal projects for
-            fun)
-            and hosting them on various platforms, mostly github pages. For the sake of content organization, I decided
-            to
-            make
-            a website that links to my websites, and call it my main page, or my website index.
+            fun) and hosting them on various platforms, mostly github pages. For the sake of content organization, I
+            decided to make a website that links to my websites, and call it my main page, or my website index.
             <br> This website is very simple and basic, with no heavy frameworks or anything...Just good old plain
             html/css/javascript.
             <br> You can follow any link below to see the garbage I have been creating over the web and spreading
@@ -62,11 +62,12 @@
         </p>
     </div>
 
-    <ul>
+    <ul class="index" id="index">
         <li><a href="https://nair0lf32.github.io/website">website</a></li>
         <li><a href="https://florianedemessi.wordpress.com">wordpress</a></li>
     </ul>
 
+    <script type="text/javascript" src="/js/script.js"></script>
 </body>
 
 </html>

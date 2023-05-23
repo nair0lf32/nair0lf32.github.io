@@ -1,15 +1,32 @@
 body {
     margin-left: 5%;
-    background-color: #afafaf;
+    background-color: #888888;
+}
+
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+
+.menu li{
+    display: inline;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .about {
 text-align: justify;
 max-width: 840px;
 margin-right: 2%;
+margin-top: 5%;
+margin-bottom: 5%;
 }
 
 .logo{
+    border: 2px solid white;
+    border-radius: 50%;
     width: 180px;
     height: 180px;
     float: left;
