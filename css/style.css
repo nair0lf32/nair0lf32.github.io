@@ -3,7 +3,18 @@ body {
     background-color: #afafaf;
 }
 
+.about {
+text-align: justify;
+max-width: 840px;
+margin-right: 2%;
+}
+
 .logo{
-    width: 100;
-    height: 100;
+    width: 180px;
+    height: 180px;
+    float: left;
+    margin-left: 10px;
+    margin-right: calc(25px);
+    object-fit: cover;
+    shape-outside: circle(50%);
 }
